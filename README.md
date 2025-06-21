@@ -1,4 +1,4 @@
-# Predicting-Drug-Toxicity-Using-AI-Cheminformatics
+
 # 🧪 AI-Based Drug Toxicity Prediction using SMILES & RDKit
 
 Predicting the **toxicological impact of chemical compounds** is a critical step in early-stage drug discovery. This project leverages **cheminformatics**, **machine learning**, and **SMILES-based molecular representation** to predict the potential toxicity of compounds using the **Tox21 dataset** — all before entering costly clinical trials.
@@ -74,26 +74,8 @@ By encoding chemical structure into machine-readable formats and training models
 
 ---
 
-## 📂 Project Structure
-toxicity-predictor/
-│
-├── data/
-│ └── tox21.csv
-│
-├── src/
-│ ├── feature_extraction.py
-│ ├── train_model.py
-│ └── predict.py
-│
-├── notebooks/
-│ └── eda_visuals.ipynb
-│
-├── models/
-│ └── random_forest_tox21_NR-AR.pkl
-│
-├── requirements.txt
-└── README.md
-#🧠 Future Work
+
+# 🧠 Future Work
  Add Morgan fingerprints (ECFP4) for richer structural information
 
  Train multi-output models across all Tox21 endpoints
